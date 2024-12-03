@@ -22,6 +22,9 @@ Casual Symbol Overlay requires usage of
 - Symbol Overlay ≥ 4.2
 - Casual ≥ 2.0.0
 
+If present, it will integrate with:
+- ~symbol-overlay-mc~ (for creating multiple cursors)
+
 Casual Symbol Overlay has been verified with the following configuration. 
 - Emacs 29.4 (macOS 14.5, Ubuntu Linux 22.04.4 LTS)
 

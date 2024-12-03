@@ -110,6 +110,10 @@
                     (format "%s to last mark"
                             (casual-symbol-overlay-unicode-get :jump))))]]
 
+  ["Multiple cursors"
+   :if (lambda () (functionp #'symbol-overlay-mc-mark-all))
+   ("c" "Mark all" symbol-overlay-mc-mark-all)]
+
   [:class transient-row
    (casual-lib-quit-one)
    ("RET" "Done" transient-quit-all)
